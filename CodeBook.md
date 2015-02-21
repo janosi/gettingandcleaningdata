@@ -41,6 +41,7 @@ The original data is processed by the run_analysis.R script, and a new, tidy dat
 The data set uses the variable names that were used in the original data set. Though, only the variables representing mean and standard deviation are present, as it was a requirement in the course project to include only those variables from the original data set.
 
 The variable names in the data set are composed from abbreviations. Here we list the abbreviations and their meanings:
+
 * `id` - identity
 * `t` -  time, indicates that the value is interpreted in the time domain
 * `f` - frequency, indicates that the value is interpreted in the frequency domain
@@ -52,12 +53,16 @@ The variable names in the data set are composed from abbreviations. Here we list
 * `std` - standard deviation
 
 ##Variable values
-Activity ID values represent the activity name performed by a subject. 
-Subject ID values represent the exact subject who performed the activity. 
+
+Activity ID values represent the activity name performed by a subject.
+
+Subject ID values represent the exact subject who performed the activity.
+
 All other fields in the same row are the mean values of the given variable for the given activity performed by the given subject.
 
 
 ##Variables
+
 `activity_id`
 Identity of the activity. Possible values are:
 * LAYING
@@ -79,7 +84,7 @@ Mean value of body acceleration in the time domain, on the Y axis
 `tBodyAcc-mean()-Z`
 Mean value of body acceleration in the time domain, on the Z axis
 
-**Note** From now on we do not write down the same variable on each axis separately, but we use the -XYZ notation here. In the data set those are in 3 separate variables.
+**Note!** From now on we do not write down the same variable on each axis separately, but we use the -XYZ notation here. In the data set those are in 3 separate variables.
 
 `tGravityAcc-mean()-XYZ`
 Mean valus of gravity acceleration in the time domain

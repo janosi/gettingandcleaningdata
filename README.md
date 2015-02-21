@@ -23,6 +23,7 @@ run_analysis.R works with the files provided by the instructors:
 * X_train.txt
 
 The files listed above shall be in the same directory with this executable. The script performs the following:
+
 1. Merges the training and the test sets (the content of *_test.txt and *_train.txt files) to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
@@ -31,11 +32,12 @@ The original names are unambiguous already, an they are short enough to explain 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 6. In the end the result data frame is written to a file named result.txt
 
-In order to execute the script, 
+In order to execute the script
+
 1. Copy all files listed above and the run_analysis.R file into the same directory
 2. Start R console
 3. Set the work directory to the directory which contains all the files mentioned in step 1
-4. execute the command `source("run_analysis.R")`
-5. as the script runs, it prints out in which state it is, so you have feedback about its progress 
+4. Execute the command `source("run_analysis.R")`
+5. As the script runs, it prints out in which state it is, so you have feedback about its progress 
 
 **Note!** The column names in result.txt are the same as in the original feature set. However, the actual values are the means calculated in step 5.
