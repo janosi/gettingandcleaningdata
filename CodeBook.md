@@ -14,23 +14,23 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The data was provided for course participants at:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -41,19 +41,19 @@ The original data is processed by the run_analysis.R script, and a new, tidy dat
 The data set uses the variable names that were used in the original data set. Though, only the variables representing mean and standard deviation are present, as it was a requirement in the course project to include only those variables from the original data set.
 
 The variable names in the data set are composed from abbreviations. Here we list the abbreviations and their meanings:
-`id` - identity
-`t` -  time, indicates that the value is interpreted in the time domain
-`f` - frequency, indicates that the value is interpreted in the frequency domain
-`Acc` - acceleration
-`X` - the X axis, indicates that the value has been measured according to the X axis in space
-`Y` - the Y axis, indicates that the value has been measured according to the Y axis in space
-`Z` - the Z axis, indicates that the value has been measured according to the Z axis in space
-`Mag` - magnitude
-`std` - standard deviation
+* `id` - identity
+* `t` -  time, indicates that the value is interpreted in the time domain
+* `f` - frequency, indicates that the value is interpreted in the frequency domain
+* `Acc` - acceleration
+* `X` - the X axis, indicates that the value has been measured according to the X axis in space
+* `Y` - the Y axis, indicates that the value has been measured according to the Y axis in space
+* `Z` - the Z axis, indicates that the value has been measured according to the Z axis in space
+* `Mag` - magnitude
+* `std` - standard deviation
 
 ##Variable values
-Activity ID values represent the activity name performed by a subject
-Subject ID values represent the exact subject who performed the activity
+Activity ID values represent the activity name performed by a subject. 
+Subject ID values represent the exact subject who performed the activity. 
 All other fields in the same row are the mean values of the given variable for the given activity performed by the given subject.
 
 
@@ -79,7 +79,7 @@ Mean value of body acceleration in the time domain, on the Y axis
 `tBodyAcc-mean()-Z`
 Mean value of body acceleration in the time domain, on the Z axis
 
-**Note' From now on we do not write down the same variable on each axis separately, but we use the -XYZ notation here. In the data set those are in 3 separate variables.
+**Note** From now on we do not write down the same variable on each axis separately, but we use the -XYZ notation here. In the data set those are in 3 separate variables.
 
 `tGravityAcc-mean()-XYZ`
 Mean valus of gravity acceleration in the time domain
