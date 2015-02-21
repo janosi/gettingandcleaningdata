@@ -42,7 +42,7 @@ The data set uses the variable names that were used in the original data set. Th
 
 The variable names in the data set are composed from abbreviations. Here we list the abbreviations and their meanings:
 
-* `id` - identity
+* `id` - identity
 * `t` -  time, indicates that the value is interpreted in the time domain
 * `f` - frequency, indicates that the value is interpreted in the frequency domain
 * `Acc` - acceleration
